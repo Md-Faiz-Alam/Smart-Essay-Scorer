@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (too large for GitHub)
+data/
+*.csv
+*.npz
+
+# Logs & reports
+logs/
+reports/metrics.json
+
+# Streamlit & FastAPI
+.streamlit/
+*.db
+
+# System / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Colab / Drive
+*.ipynb_save
